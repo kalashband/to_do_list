@@ -20,12 +20,12 @@ const TaskList = () => {
     };
 
     return (
-        <div>
+        <div className='cursor-pointer max-[520px]:w-3/5'>
             <ul>
                 {tasks.map((task) => (
                     <List key={task.id} sx={{ width: 400, maxWidth: '100%',  bgcolor: 'primary.main', borderRadius: '10px', m: 2 }}>
                         <ListItem>
-                            <ListItemText  sx={{ color: 'text.primary' , fontSize: 'h2.fontSize' , fontWeight: 'bold ' , color: 'text.primar' }} >
+                            <ListItemText  sx={{ color: 'text.primary' , fontSize: 'h2.fontSize' , fontWeight: 'bold ' , color: 'text.primar' }}   >
                             {task.text}
                             </ListItemText>
                             <ListItemAvatar>

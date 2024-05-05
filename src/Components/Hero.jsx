@@ -20,7 +20,7 @@ const Hero = () => {
     };
 
     return (
-        <div className='cursor-pointer' >
+        <div className='cursor-pointer max-[520px]:w-3/4' >
                 <Box
                     sx={{
                         width: 500,
